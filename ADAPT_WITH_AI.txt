@@ -12,6 +12,13 @@ Then help me create:
 5. A test checklist for another phone on cellular data, the contact card, every link, and any email delivery.
 6. A manual follow-up workflow for people who agreed to continue talking.
 
+Before calling the result finished, review it as a skeptical attendee on a phone:
+- List every visible claim and whether I supplied evidence for it.
+- Check that contact-card details, mailto links, and work URLs agree.
+- Flag anything that implies a working form, booking flow, analytics setup, or auto-reply without an end-to-end test.
+- Give me a five-minute test sequence, including a second phone on cellular data.
+- End with a short list of what remains unverified. Do not mark it done for me.
+
 Do not invent customer results, endorsements, bookings, a community, a working CRM, or automatic email. If I request a form or automation, mark it unverified until we test the entire path. Do not collect more personal data than the workflow needs. Prefer the simplest tools I already have.
 
 Reference implementation: https://gorzelic.net/meet

@@ -7,6 +7,7 @@
 - [ ] The on-screen QR scans at the brightness and distance you expect.
 - [ ] The contact card opens and saves the right name, title, email, and URL.
 - [ ] Each work link loads and you can explain your own role honestly.
+- [ ] The share button opens the phone's share sheet or copies the page link; the recipient can open it.
 - [ ] Direct email or another fallback works if the page or a form fails.
 - [ ] Any form has been tested through actual delivery—not just a success message.
 - [ ] Both devices are charged; pack a charger and paper backup.
