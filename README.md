@@ -13,11 +13,16 @@ A small, inspectable handoff for meeting people in person: one URL, a QR code, a
 5. Print the QR at high contrast and test it from another phone on cellular data. If you use an NFC tag, write the same HTTPS URL to it.
 6. Use [CHECKLIST.md](CHECKLIST.md) before the event. Follow up only with people who agreed to continue the conversation.
 
-You can download the ZIP from [the setup page](https://gorzelic.net/meet/setup) without a GitHub account. For an AI-assisted version, copy the starter prompt there or upload [ADAPT_WITH_AI.txt](ADAPT_WITH_AI.txt) to ChatGPT, Claude, or another assistant. Those links open a new chat; they do not transfer a file or prompt automatically. Review every generated claim and test every integration. The prompt is a starting point, not a substitute for working software.
+The sample also has a “Share this page” button. On supported phones it opens
+the native share sheet; otherwise it copies the URL when clipboard access is
+available. If neither works, it tells the visitor to copy the address. It
+does not send anything to a server.
+
+You can download the ZIP from [the setup page](https://gorzelic.net/meet/setup) without a GitHub account. For an AI-assisted version, copy the starter prompt there or upload [ADAPT_WITH_AI.txt](ADAPT_WITH_AI.txt) to ChatGPT, Claude, or another assistant. Those links open a new chat; they do not transfer a file or prompt automatically. The prompt asks for a draft *and* a skeptical review of claims, links, consent, and unverified integrations. Run the five-minute test yourself before sharing the QR.
 
 ## What this template does
 
-The sample page has a `.vcf` contact download, direct email link, and space for a few work links. It is plain HTML and CSS. There is no tracking script, server, database, automatic email, or contact capture form.
+The sample page has a `.vcf` contact download, direct email link, a native share/copy button, and space for a few work links. It is plain HTML, CSS, and a small amount of JavaScript. There is no tracking script, server, database, automatic email, or contact capture form.
 
 Brian's live `/meet` implementation uses a separate Next.js site. Its event pages can count page visits and selected clicks with Umami when a website ID and tracker URL are configured. The portable template does not inherit that tracking. If you add analytics to your copy, disclose it and test the deployed page and dashboard before claiming it works. A click count is not a count of qualified leads.
 
