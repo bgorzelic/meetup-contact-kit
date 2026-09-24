@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:Your Name
+N:Name;Your;;;
+TITLE:What you do
+EMAIL:you@example.com
+URL:https://example.com/
+END:VCARD

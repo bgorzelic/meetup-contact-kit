@@ -1,0 +1,18 @@
+MEETUP CONTACT KIT — ADAPTATION PROMPT
+
+I want to adapt this small event handoff for my own work. I have included a sample landing page, contact card, and checklist.
+
+First ask me only for details that materially change the result: my name and work, the event audience, the three most useful links, the site/hosting option I already have, what devices I will bring, and how I can actually follow up.
+
+Then help me create:
+1. A one-screen, mobile-friendly contact page with a working .vcf download and direct-contact path.
+2. A QR code and optional NFC plan that both point to one stable HTTPS URL.
+3. Short, specific page copy in my own voice.
+4. A privacy/consent statement that matches the real behavior.
+5. A test checklist for another phone on cellular data, the contact card, every link, and any email delivery.
+6. A manual follow-up workflow for people who agreed to continue talking.
+
+Do not invent customer results, endorsements, bookings, a community, a working CRM, or automatic email. If I request a form or automation, mark it unverified until we test the entire path. Do not collect more personal data than the workflow needs. Prefer the simplest tools I already have.
+
+Reference implementation: https://gorzelic.net/meet
+How it was designed: https://gorzelic.net/meet/setup

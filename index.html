@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="Save a contact and see a few useful examples of work." />
+    <title>Good meeting you | Your Name</title>
+    <style>
+      :root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #18233b; background: #fff; }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      main { max-width: 600px; margin: 0 auto; padding: 40px 22px 64px; }
+      header { border-left: 4px solid #2563eb; padding-left: 22px; }
+      .name { color: #2563eb; font-size: 15px; font-weight: 700; margin: 0; }
+      h1 { font-size: clamp(36px, 8vw, 52px); line-height: 1.06; letter-spacing: -.035em; margin: 14px 0; }
+      .role { font-weight: 600; margin: 0 0 8px; }
+      .intro, .note { color: #526079; line-height: 1.65; }
+      .intro { font-size: 17px; max-width: 38ch; margin: 0; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 30px 0; }
+      a { color: #1d4ed8; }
+      a:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+      .button { min-height: 48px; display: inline-flex; align-items: center; padding: 12px 17px; border-radius: 8px; font-weight: 700; text-decoration: none; }
+      .primary { background: #2563eb; color: white; }
+      .secondary { border: 1px solid #2563eb; }
+      section { border-top: 1px solid #d7dfed; margin-top: 36px; padding-top: 23px; }
+      h2 { font-size: 18px; margin: 0 0 14px; }
+      ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+      li a { min-height: 44px; display: inline-flex; align-items: center; font-weight: 600; }
+      .note { font-size: 13px; margin-top: 32px; }
+      @media (max-width: 400px) { ul { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="name">Your Name</p>
+        <h1>Good meeting you.</h1>
+        <p class="role">What you do</p>
+        <p class="intro">One useful sentence about the work you do for people.</p>
+      </header>
+
+      <div class="actions">
+        <a class="button primary" href="contact.vcf" download>Save my contact</a>
+        <a class="button secondary" href="mailto:you@example.com?subject=Good%20meeting%20you">Email me</a>
+      </div>
+
+      <section aria-labelledby="work-heading">
+        <h2 id="work-heading">A few things you can inspect</h2>
+        <ul>
+          <li><a href="https://example.com/work">Selected work</a></li>
+          <li><a href="https://example.com/how-we-work">How I work</a></li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+          <li><a href="https://github.com/">GitHub</a></li>
+        </ul>
+      </section>
+
+      <p class="note">No signup is required. If you email me, I’ll use your details to reply—not to add you to a mailing list.</p>
+    </main>
+  </body>
+</html>
